@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url(../images/ironmanhand.png), auto;
+    cursor: grab, auto;
 }
 
 :root {
@@ -106,7 +106,7 @@ body {
     color: #fff;
     height: 40px;
     font-size: 16px;
-    cursor: url(../images/ironmanhand.png), auto;
+    cursor: grab, auto;
 
 }
 
@@ -136,7 +136,7 @@ body {
     filter: blur(2px);
 }
 
-/*---------------------------------------------------- Search Bar and Results---------------------------------------- */
+/*------ Search Bar and Results------ */
 
 .search-bar-container {
     display: flex;
@@ -195,7 +195,7 @@ input::placeholder {
 
 #search-results {
     min-width: 435px;
-    /* height: 500px; */
+    
     margin-top: 30px;
     list-style: none;
     z-index: 2;
@@ -212,7 +212,7 @@ input::placeholder {
 
 #search-results li .hero-name {
     transition: all 0.2s ease;
-    cursor: url(../images/ironmanhand.png), auto;
+    cursor: grab, auto;
 
 }
 
@@ -240,7 +240,7 @@ input::placeholder {
 }
 
 .hero-name {
-     cursor: url(../images/ironmanhand.png),auto !important; 
+     /* cursor: url(../images/ironmanhand.png),auto !important;  */
     font-size: 26px;
 }
 
@@ -251,7 +251,7 @@ input::placeholder {
 
 /*------------------------------------------------------ Background Image ------------------------------------------- */
 .bg-img {
-    width: 70%;
+    width: 80%;
     min-width: 600px;
     /* height: auto; */
     position: fixed;

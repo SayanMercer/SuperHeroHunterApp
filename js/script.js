@@ -6,7 +6,7 @@
 
 
 
-//*-------------------------------------- Selecting the element from DOM ----------------------------------------------------
+
 let searchBar = document.getElementById("search-bar");
 let searchResults = document.getElementById("search-results");
 
@@ -22,7 +22,7 @@ async function searchHeros(textSearched) {
      let ts = new Date().getTime();
      let hash = CryptoJS.MD5(ts + PRIVATE_KEY + PUBLIC_KEY).toString();
      
-     // if there is no text written in the search bar then nothing is displayed 
+     
      if (textSearched.length == 0) {
           searchResults.innerHTML = ``;
           return;
@@ -34,9 +34,7 @@ async function searchHeros(textSearched) {
           .then(data => showSearchedResults(data.data.results)) //sending the searched results characters to show in HTML
 }
 
-// Function for displaying the searched results in DOM
-// An array is accepted as argument 
-// SearchedHero is the array of objects which matches the string entered in the searched bar
+
 function showSearchedResults(searchedHero) {
 
 
@@ -246,7 +244,7 @@ function addInfoInLocalStorage() {
      localStorage.setItem("heroInfo", JSON.stringify(heroInfo));
 }
 
-/*-----------------------------------------------------  Theme Changing  -------------------------------------------------  */
+/*------Theme button  */
 
 // Selection of theme button
 let themeButton = document.getElementById("theme-btn");
@@ -279,7 +277,7 @@ themeButton.addEventListener("click",themeChanger);
      }
 })();
 
-// function for handeling theme button changes
+
 function themeChanger(){
      let root = document.getElementById("root");
      // let themeIcon = document.querySelector("#themeButton i");
