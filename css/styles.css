@@ -73,7 +73,7 @@ body {
 
 .navbar-brand {
     align-items: center;
-    gap: 10px;  
+    gap: 10px;
 }
 
 .navbar-brand a {
@@ -195,7 +195,7 @@ input::placeholder {
 
 #search-results {
     min-width: 435px;
-    
+
     margin-top: 30px;
     list-style: none;
     z-index: 2;
@@ -240,7 +240,7 @@ input::placeholder {
 }
 
 .hero-name {
-     /* cursor: url(../images/ironmanhand.png),auto !important;  */
+    /* cursor: url(../images/ironmanhand.png),auto !important;  */
     font-size: 26px;
 }
 

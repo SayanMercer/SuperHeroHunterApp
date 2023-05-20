@@ -1,9 +1,9 @@
-/* General styles */
+
 body {
     overflow-x: hidden;
 }
 
-/* Container styles */
+
 .cards-container {
     display: flex;
     justify-content: space-evenly;
@@ -11,7 +11,7 @@ body {
     overflow: hidden;
 }
 
-/* Card styles */
+
 .card {
     position: relative;
     height: 484px;
@@ -50,12 +50,12 @@ body {
     cursor: grab;
 }
 
-/* Button styles */
+
 .character-info .btn {
     width: 100%;
 }
 
-/* No characters message styles */
+
 .no-characters {
     font-size: 40px;
     color: var(--text-color);
