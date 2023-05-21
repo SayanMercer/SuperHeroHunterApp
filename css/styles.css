@@ -4,6 +4,7 @@
     box-sizing: border-box;
     cursor: grab, auto;
 }
+
 :root {
     /* Light Mode Colors */
     --background-light-color: #fce8a5;
@@ -146,7 +147,7 @@ body {
     text-decoration: none;
 }
 
-.btn {
+/* .btn {
     border: none;
     outline: none;
     padding: 10px;
@@ -174,6 +175,41 @@ body {
 
 .fav-icon {
     color: 1fff;
+} */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: var(--navbar-color);
+    border-radius: 5px;
+    color: #fff;
+    height: 44px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #FF0000;
+    /* Change the hover color as desired */
+}
+
+#theme-btn {
+    width: 48px;
+}
+
+#theme-btn i {
+    font-size: 24px;
+}
+
+.fav-btn {
+    font-size: 24px;
+    width: 60px;
+}
+
+.fav-icon {
+    color: blueviolet;
+    /* Change the color as desired */
 }
 
 .bg-right-side-img {

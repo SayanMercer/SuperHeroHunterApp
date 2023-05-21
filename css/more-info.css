@@ -124,11 +124,7 @@ body {
     backdrop-filter: blur(2px);
 }
 
-/* Hero name styles */
-/* .hero-name {
-    display: flex;
-    justify-content: center;
-} */
+
 .hero-name {
     display: flex;
     justify-content: center;
