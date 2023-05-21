@@ -4,16 +4,65 @@
     box-sizing: border-box;
     cursor: grab, auto;
 }
-
 :root {
     /* Light Mode Colors */
+    --background-light-color: #fce8a5;
+    --navbar-light-background-color: #ffbf3f;
+    --navbar-light-color: #1f2430;
+    --searchBar-light-box-shadow: #ffbf3f;
+    --text-light-color: #1f2430;
+
+    /* Dark Mode Colors */
+    --background-dark-color: #1f2430;
+    --navbar-dark-background-color: #13171f;
+    --navbar-dark-color: #e6d448;
+    --searchBar-dark-box-shadow: #e6d448;
+    --text-dark-color: #ffffff;
+}
+
+[color-scheme="dark"] {
+    --background-color: var(--background-dark-color);
+    --navbar-background-color: var(--navbar-dark-background-color);
+    --navbar-color: var(--navbar-dark-color);
+    --searchBar-box-shadow: var(--searchBar-dark-box-shadow);
+    --text-color: var(--text-dark-color);
+}
+
+[color-scheme="light"] {
+    --background-color: var(--background-light-color);
+    --navbar-background-color: var(--navbar-light-background-color);
+    --navbar-color: var(--navbar-light-color);
+    --searchBar-box-shadow: var(--searchBar-light-box-shadow);
+    --text-color: var(--text-light-color);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* :root {
+    
     --background-light-color: #a0d9e4;
     --navbar-light-background-color: #08262d;
     --navbar-light-color: #0D4C92;
     --searchBar-light-box-shadow: #0D4C92;
     --text-light-color: #000;
 
-    /* Dark Mode Colors */
+    
     --background-dark-color: #0c0050;
     --navbar-dark-background-color: #500013;
     --navbar-dark-color: #FB2576;
@@ -54,7 +103,7 @@ body {
 .flex-col {
     display: flex;
     flex-direction: column;
-}
+} */
 
 /*-- Navbar -- */
 
@@ -64,7 +113,7 @@ body {
     align-items: center;
     width: 100%;
     background-color: var(--navbar-background-color);
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 2px;
     /* text-shadow: 0px 0px 5px #707d9d; */
     font-size: 30px;

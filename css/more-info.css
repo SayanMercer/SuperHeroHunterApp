@@ -125,9 +125,18 @@ body {
 }
 
 /* Hero name styles */
+/* .hero-name {
+    display: flex;
+    justify-content: center;
+} */
 .hero-name {
     display: flex;
     justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF0000;
+    /* Change the color as desired */
+    margin-top: 10px;
 }
 
 /* Hero image and more info styles */
@@ -138,8 +147,8 @@ body {
 }
 
 .hero-img {
-    width: 20%;
-    min-width: 120px;
+    width: 30%;
+    min-width: 60px;
     height: auto;
 }
 
