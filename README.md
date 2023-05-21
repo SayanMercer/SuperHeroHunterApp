@@ -1,4 +1,4 @@
-**SuperHero Hunter App **
+****SuperHero Hunter App ****
 
 1.SuperHeroHunterApp is a dynamic web application built using HTML, CSS, and JavaScript, with integration of the powerful Marvel API. 
 
