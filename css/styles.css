@@ -55,56 +55,7 @@ body {
     flex-direction: column;
 }
 
-/* :root {
-    
-    --background-light-color: #a0d9e4;
-    --navbar-light-background-color: #08262d;
-    --navbar-light-color: #0D4C92;
-    --searchBar-light-box-shadow: #0D4C92;
-    --text-light-color: #000;
 
-    
-    --background-dark-color: #0c0050;
-    --navbar-dark-background-color: #500013;
-    --navbar-dark-color: #FB2576;
-    --searchBar-dark-box-shadow: #fc82b1;
-    --text-dark-color: #ffffff;
-}
-
-[color-scheme="dark"] {
-    --background-color: var(--background-dark-color);
-    --navbar-background-color: var(--navbar-dark-background-color);
-    --navbar-color: var(--navbar-dark-color);
-    --searchBar-box-shadow: var(--searchBar-dark-box-shadow);
-    --text-color: var(--text-dark-color);
-}
-
-[color-scheme="light"] {
-    --background-color: var(--background-light-color);
-    --navbar-background-color: var(--navbar-light-background-color);
-    --navbar-color: var(--navbar-light-color);
-    --searchBar-box-shadow: var(--searchBar-light-box-shadow);
-    --text-color: var(var(--text-light-color));
-}
-
-
-body {
-    background-color: var(--background-color);
-    font-family: 'Roboto', sans-serif;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-}
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-col {
-    display: flex;
-    flex-direction: column;
-} */
 
 /*-- Navbar -- */
 
@@ -116,7 +67,7 @@ body {
     background-color: var(--navbar-background-color);
     font-weight: 400;
     letter-spacing: 2px;
-    /* text-shadow: 0px 0px 5px #707d9d; */
+   
     font-size: 30px;
     padding: 0 20px;
 }
@@ -133,7 +84,7 @@ body {
 
 /* Right Side */
 .logo {
-    width: 3%;
+    width: 8%;
     min-width: 45px;
 }
 
@@ -199,7 +150,7 @@ body {
 }
 
 #theme-btn i {
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .fav-btn {
@@ -229,6 +180,11 @@ body {
     justify-content: center;
     height: 50px;
 }
+
+
+
+
+/* until this */
 
 .search-icon-container {
     background: var(--navbar-background-color);
@@ -413,5 +369,28 @@ input::placeholder {
     .logo {
         width: 25%;
         min-width: 45px;
+    }
+}
+.beep {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ed0d1c;
+    /* Change the color as desired */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    animation: beepAnimation 1s infinite;
+}
+
+@keyframes beepAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
