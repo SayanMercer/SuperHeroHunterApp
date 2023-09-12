@@ -17,7 +17,8 @@
 **#HomePage** 
 ![image](https://github.com/SayanMercer/SuperHeroHunterApp/assets/121373586/81d1162d-7284-4acf-b162-ae7350355d63)
 **#Search Suggestions**
-![image](https://github.com/SayanMercer/SuperHeroHunterApp/assets/121373586/b50a9293-ff65-492f-9d5a-b00e7f8dcd0b
+![image](https://github.com/SayanMercer/SuperHeroHunterApp/assets/121373586/764d90a6-3a58-4026-adfc-081cc40dd8e0)
+
 
 **#favourites Page**
 ![image](https://github.com/SayanMercer/SuperHeroHunterApp/assets/121373586/d9060d02-9712-44f1-b764-b8a4b2cb5f18)
